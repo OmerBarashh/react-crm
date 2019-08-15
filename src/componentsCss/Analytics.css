@@ -1,0 +1,32 @@
+body {
+    background-color: #ECF0F1;
+}
+
+.bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+
+.smallBar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.data {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+.data .num {
+    font-size: 40px;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
